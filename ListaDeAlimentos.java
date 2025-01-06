@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListaDeAlimentos {
+    // Lista uma coleção de objetos da classe Alimento
+    List<Alimento> listaDeAlimentos = new ArrayList<>();
+
+
+    // Método de adicionar alimentos:
+    public void addAlimento(Alimento Alimento) {
+        listaDeAlimentos.add(Alimento);
+    }
+    // Método de Quantidade de Calorias
+}
