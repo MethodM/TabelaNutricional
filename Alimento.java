@@ -27,6 +27,13 @@ public class Alimento {
         //Escrever código aqui
     }
 
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public double getCalorias () {
         return calorias;
     }
